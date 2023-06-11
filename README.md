@@ -3,16 +3,16 @@
 
 To execute the code, follow these steps:
 
-     Save the code in a file named NiceTestApp.py on your computer (Windows/linux).
-     Open a command prompt or terminal window.
-     Navigate to the directory where you saved NiceTestApp.py
-     Run the script by typing 'python NiceTestApp.py' and press Enter.
+     1. Save the code in a file named NiceTestApp.py on your computer (Windows/linux).
+     2. Open a command prompt or terminal window.
+     3. Navigate to the directory where you saved NiceTestApp.py
+     4. Run the script by typing 'python NiceTestApp.py' and press Enter.
 
  You can also pass the command-line arguments. For example:
 
-     To display the information on the screen and log it to a file, use: 'python NiceTestApp.py -logInfo'
-     To display the information on the screen without logging, use: 'python NiceTestApp.py'
-     To display the help message, use: 'python NiceTestApp.py -help'
+     # To display the information on the screen and log it to a file, use: 'python NiceTestApp.py -logInfo'
+     # To display the information on the screen without logging, use: 'python NiceTestApp.py'
+     # To display the help message, use: 'python NiceTestApp.py -help'
 
 Prerequisites: Make sure you have Python installed on your system and the necessary dependencies (argparse and psutil) installed. If not, you can install them using pip:
 ```
