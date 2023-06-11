@@ -25,3 +25,20 @@ To test top processes consuming high resources you can use below command on your
 ```
 nproc | xargs seq | xargs -n1 -P4 md5sum /dev/zero
 ```
+
+
+SAMPLE OUPUT:
+$ python3 NiceTestApp.py
+```
+Computer Name: WS-19860
+Total Physical Memory: 12 Gb
+Total Number of Physical Processors: 4
+Total Number of Cores: 8
+Total Number of Hard Disks: 5
+Top 5 processes in terms of CPU:
+        md5sum: 92.1%
+        md5sum: 92.1%
+        md5sum: 92.1%
+        md5sum: 92.1%
+        python3: 6.0%
+```
