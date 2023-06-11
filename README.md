@@ -20,7 +20,7 @@ pip install argparse psutil
 ```
 The script will create a log file named NiceTestApp.log in the same directory as the NiceTestApp.py file if the -logInfo argument is specified.
 
-NOTE: The fetch_top_cpu_processes() works for linux machines only. 
+NOTE: The fetch_top_cpu_processes() function works for linux machines only. \n
 To test top processes consuming high resources you can use below command on your test linux environment. Running this command can consume significant CPU resources and generate a large amount of output since it generates MD5 hashes continuously. Be cautious when executing commands like this, as they may impact system performance and produce a large amount of output data.
 ```
 nproc | xargs seq | xargs -n1 -P4 md5sum /dev/zero
